@@ -86,62 +86,54 @@ body {
   /* ---> UTILITIES */
   
   /* Colors */
-  .color-green {
-    color: #729f34;
+  .color-brown {
+    color: #988B81;
   }
-  .bg-color-green {
-    background-color: #729f34;
-  }
-  
-  .color-green-3 {
-    color: #8fc741;
-  }
-  .bg-color-green-3 {
-    background-color: #8fc741;
+  .bg-color-brown {
+    background-color: #988B81;
   }
   
-  .color-blue {
-    color: #002137;
+  .color-brown-3 {
+    color: #B8B2AE;
   }
-  .bg-color-blue {
-    background-color: #002137;
-  }
-  
-  .color-blue-3 {
-    color: #4D6473;
-  }
-  .bg-color-blue-3 {
-    background-color: #4D6473;
+  .bg-color-brown-3 {
+    background-color: #B8B2AE;
   }
   
-  .color-grey {
-    color: #1e1e1e;
+  .color-brown-5 {
+    color: #F1F0ED;
   }
-  .bg-color-grey {
-    background-color: #1e1e1e;
+  .bg-color-brown-5 {
+    background-color: #F1F0ED;
   }
-  
-  .color-grey-2 {
-    color: #a2a2a2;
+
+  .color-purple {
+    color: #341D22;
   }
-  .bg-color-grey-2 {
-    background-color: #a2a2a2;
-  }
-  
-  .color-grey-3 {
-    color: #a2a2a2;
-  }
-  .bg-color-grey-3 {
-    background-color: #a2a2a2;
+  .bg-color-purple {
+    background-color: #341D22;
   }
   
-  .color-grey-5 {
-    color: #dadada;
+  .color-purple-3 {
+    color: #4E383C;
   }
-  .bg-color-grey-5 {
-    background-color: #dadada;
+  .bg-color-purple-3 {
+    background-color: #4E383C;
   }
-  
+
+  .color-purple-5 {
+    color: #967B7A;
+  }
+  .bg-color-purple-5 {
+    background-color: #967B7A;
+  }
+
+  .color-purple-7 {
+    color: #C3ACAD;
+  }
+  .bg-color-purple-7 {
+    background-color: #C3ACAD;
+  }
   
   
   /* Own styles, these are only for styling THIS page */
