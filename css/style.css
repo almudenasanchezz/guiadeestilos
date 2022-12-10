@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #4E383C;
+    font-family: 'Open Sans', sans-serif;
+    color: #341D22;
     background-color: #e1e1e1;
     font-weight: 400;
   }
@@ -12,17 +12,20 @@ body {
   h4,
   h5,
   h6 {
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 0.5em;
   }
+
   h1,
   .h1 {
     font-size: 42px;
+    font-weight: 700;
   }
   
   h2,
   .h2 {
     font-size: 32px;
+    font-weight: 600;
   }
   
   h3,
@@ -49,10 +52,11 @@ body {
   .btn {
     display: inline-block;
     padding: 0 16px;
-    background-color: #988B81;
+    background-color: #967B7A;
     text-decoration: none;
     color: white;
-    border: 1px solid #a2a2a2;
+    border: 1px solid #4E383C;
+    border-radius: 14px;
     line-height: 2;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
@@ -87,7 +91,7 @@ body {
   /* ---> UTILITIES */
   
   /* Colors */
-  .color-brown {
+  .color-brown {   /* no entiendo porque pone esto para cada color, por que se repite dos veces */
     color: #988B81;
   }
   .bg-color-brown {
