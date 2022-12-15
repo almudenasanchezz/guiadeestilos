@@ -95,6 +95,9 @@ body {
   }
 
   input {
+    -webkit-appearance: none;
+    -moz-appearance: none;  
+    appearance: none;
     font-size: 14px;
     border: 0;
     border-bottom: 1px solid #4E383C;
@@ -107,10 +110,40 @@ body {
     border-bottom: 4px solid #4E383C;
   }
   
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .check_radio {
+    display: none;
+    appearance: none;
+  }
+  
+  .check {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    font-family: helvetica, verdana;
+    font-size: 16px;
+    padding-left: 2em;
+  }
+  
+  .check:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px white, 0 0 0 3px lightgrey;
+  }
+  
+  .check_radio:checked + 
+  .check:before {
+    box-shadow: 0 0 0 3px white, 0 0 0 4px teal;
+    background-color: teal;
+  }
+  
+  .check:hover:before {
+    box-shadow: 0 0 0 3px white, 0 0 0 4px rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
   }
 
   
